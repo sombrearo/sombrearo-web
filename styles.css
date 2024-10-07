@@ -1,0 +1,64 @@
+body {
+  font-family: 'Alfa Slab One', cursive;
+   background-color: #f2c94c; /* changed to dark yellow */
+}
+
+#logo {
+  height: 30%; /* reduced size even further */
+  width: 800px; /* kept the same as before */
+  display: block; /* displayed as a block element instead of inline-block */
+  margin: auto; /* centered horizontally */
+}
+
+.horizontal-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2c94c; /* changed to dark yellow */
+}
+
+.nav-item {
+  padding: 1rem;
+  border: 1px solid white; /* added white border around each button */
+  margin: 0 1rem; /* added margin between buttons */
+  background-color: #f2c94c; /* changed to dark yellow */
+}
+
+.nav-link {
+  color: black; /* changed to black font */
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+
+.page-content {
+  padding: 2rem;
+  background-color: white; /* changed to light yellow */
+  border: 1px solid black; /* added black border around each page */
+  margin: 2rem; /* added margin between pages */
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+.button {
+  background-color: #f2c94c; /* changed to dark yellow */
+  border: none;
+  color: black; /* changed to black font */
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #f2c94c; /* changed to dark yellow */
+}
